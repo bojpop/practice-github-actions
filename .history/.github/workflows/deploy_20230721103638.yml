@@ -1,0 +1,6 @@
+name: Deploy Project
+on: workflow_dispatch
+jobs:
+    deploy:
+        runs-on: windows-latest
+        ste
