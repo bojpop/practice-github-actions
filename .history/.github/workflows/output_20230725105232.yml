@@ -1,0 +1,8 @@
+name: Output infomation
+on: issues
+jobs:
+    info:
+        runs-on: windows-latest
+        steps:
+            - name: Output Github context
+              run: echo "${{toJSON(github.event)}}"
